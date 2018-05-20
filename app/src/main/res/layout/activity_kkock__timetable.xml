@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ychvincent.itproject2.KKOCK_Timetable">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactCalendar"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#FFFFFF"
+        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#E57373"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#000000"
+        app:compactCalendarTextSize="12sp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/timetable_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

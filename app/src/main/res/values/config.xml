@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Watson Speech-To-Text Service Credentials speech to text FZPPQ--> 
+    <string name="STT_username">14ed267d-9cd5-4363-8600-cdc812334554</string> 
+    <string name="STT_password">EcJl3c4PbD5k</string>  
+
+    <!--Watson Text-To-Speech Service Credentials test tts--> 
+    <string name="TTS_username">1d2272be-7ba2-4955-84c9-0d787b38aca5</string>  
+    <string name="TTS_password">WTLsJMnziXV7</string>
+
+    <!--Bluemix Mobile Analytics--> 
+    <string name="mobileanalytics_apikey">5bc78043-759d-4e52-9355-861b406bdaef</string>
+
+    <!-- Translator api-->
+    <string name="translator_username">4e23c870-feb0-4fe8-8697-047937a19bf9</string>
+    <string name="translator_password">O6F8FjZ6GNw3</string>
+
+</resources>
